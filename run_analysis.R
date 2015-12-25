@@ -8,7 +8,8 @@ library(plyr);
 
 #Merges the training and the test sets to create one data set.
 
-dat_path <-file.path("C:/Users/emiu/Documents/Data Science/Cleaning Data/data", "UCI HAR Dataset")
+#dat_path <-file.path("C:/Users/emiu/Documents/Data Science/Cleaning Data/data", "UCI HAR Dataset")
+dat_path <-file.path("./data", "UCI HAR Dataset")
 
 files <- list.files(dat_path, recursive=TRUE)
 
